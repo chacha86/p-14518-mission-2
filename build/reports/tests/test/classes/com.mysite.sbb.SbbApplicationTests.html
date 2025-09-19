@@ -1,0 +1,2254 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - SbbApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>SbbApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.mysite.sbb.html">com.mysite.sbb</a> &gt; SbbApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.538s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="tab-container">
+<ul class="tabLinks">
+<li>
+<a href="#">Tests</a>
+</li>
+<li>
+<a href="#">Standard output</a>
+</li>
+<li>
+<a href="#">Standard error</a>
+</li>
+</ul>
+<div class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testJpa12()</td>
+<td class="success">0.538s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>15:19:00.010 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.mysite.sbb.SbbApplicationTests]: SbbApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:19:00.062 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.mysite.sbb.SbbApplication for test class com.mysite.sbb.SbbApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+?[32m :: Spring Boot :: ?[39m              ?[2m (v3.5.5)?[0;39m
+
+?[2m2025-09-16T15:19:00.243+09:00?[0;39m ?[32m INFO?[0;39m ?[35m97402?[0;39m ?[2m--- [sbb] [    Test worker] ?[0;39m?[36mcom.mysite.sbb.SbbApplicationTests      ?[0;39m ?[2m:?[0;39m Starting SbbApplicationTests using Java 21.0.8 with PID 97402 (started by yeaji in /Users/yeaji/IdeaProjects/p-14518-mission-2-main)
+?[2m2025-09-16T15:19:00.243+09:00?[0;39m ?[32m INFO?[0;39m ?[35m97402?[0;39m ?[2m--- [sbb] [    Test worker] ?[0;39m?[36mcom.mysite.sbb.SbbApplicationTests      ?[0;39m ?[2m:?[0;39m The following 1 profile is active: &quot;dev&quot;
+?[2m2025-09-16T15:19:00.553+09:00?[0;39m ?[32m INFO?[0;39m ?[35m97402?[0;39m ?[2m--- [sbb] [    Test worker] ?[0;39m?[36m.s.d.r.c.RepositoryConfigurationDelegate?[0;39m ?[2m:?[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+?[2m2025-09-16T15:19:00.573+09:00?[0;39m ?[32m INFO?[0;39m ?[35m97402?[0;39m ?[2m--- [sbb] [    Test worker] ?[0;39m?[36m.s.d.r.c.RepositoryConfigurationDelegate?[0;39m ?[2m:?[0;39m Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
+?[2m2025-09-16T15:19:00.721+09:00?[0;39m ?[32m INFO?[0;39m ?[35m97402?[0;39m ?[2m--- [sbb] [    Test worker] ?[0;39m?[36mo.hibernate.jpa.internal.util.LogHelper ?[0;39m ?[2m:?[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+?[2m2025-09-16T15:19:00.747+09:00?[0;39m ?[32m INFO?[0;39m ?[35m97402?[0;39m ?[2m--- [sbb] [    Test worker] ?[0;39m?[36morg.hibernate.Version                   ?[0;39m ?[2m:?[0;39m HHH000412: Hibernate ORM core version 6.6.26.Final
+?[2m2025-09-16T15:19:00.761+09:00?[0;39m ?[32m INFO?[0;39m ?[35m97402?[0;39m ?[2m--- [sbb] [    Test worker] ?[0;39m?[36mo.h.c.internal.RegionFactoryInitiator   ?[0;39m ?[2m:?[0;39m HHH000026: Second-level cache disabled
+?[2m2025-09-16T15:19:00.874+09:00?[0;39m ?[32m INFO?[0;39m ?[35m97402?[0;39m ?[2m--- [sbb] [    Test worker] ?[0;39m?[36mo.s.o.j.p.SpringPersistenceUnitInfo     ?[0;39m ?[2m:?[0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+?[2m2025-09-16T15:19:00.886+09:00?[0;39m ?[32m INFO?[0;39m ?[35m97402?[0;39m ?[2m--- [sbb] [    Test worker] ?[0;39m?[36mcom.zaxxer.hikari.HikariDataSource      ?[0;39m ?[2m:?[0;39m HikariPool-1 - Starting...
+?[2m2025-09-16T15:19:00.975+09:00?[0;39m ?[32m INFO?[0;39m ?[35m97402?[0;39m ?[2m--- [sbb] [    Test worker] ?[0;39m?[36mcom.zaxxer.hikari.pool.HikariPool       ?[0;39m ?[2m:?[0;39m HikariPool-1 - Added connection conn0: url=jdbc:h2:./db_dev user=SA
+?[2m2025-09-16T15:19:00.975+09:00?[0;39m ?[32m INFO?[0;39m ?[35m97402?[0;39m ?[2m--- [sbb] [    Test worker] ?[0;39m?[36mcom.zaxxer.hikari.HikariDataSource      ?[0;39m ?[2m:?[0;39m HikariPool-1 - Start completed.
+?[2m2025-09-16T15:19:01.002+09:00?[0;39m ?[32m INFO?[0;39m ?[35m97402?[0;39m ?[2m--- [sbb] [    Test worker] ?[0;39m?[36morg.hibernate.orm.connections.pooling   ?[0;39m ?[2m:?[0;39m HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+?[2m2025-09-16T15:19:01.361+09:00?[0;39m ?[32m INFO?[0;39m ?[35m97402?[0;39m ?[2m--- [sbb] [    Test worker] ?[0;39m?[36mo.h.e.t.j.p.i.JtaPlatformInitiator      ?[0;39m ?[2m:?[0;39m HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+?[2m2025-09-16T15:19:01.383+09:00?[0;39m ?[32m INFO?[0;39m ?[35m97402?[0;39m ?[2m--- [sbb] [    Test worker] ?[0;39m?[36mj.LocalContainerEntityManagerFactoryBean?[0;39m ?[2m:?[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+?[2m2025-09-16T15:19:01.554+09:00?[0;39m ?[33m WARN?[0;39m ?[35m97402?[0;39m ?[2m--- [sbb] [    Test worker] ?[0;39m?[36mJpaBaseConfiguration$JpaWebConfiguration?[0;39m ?[2m:?[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+?[2m2025-09-16T15:19:01.726+09:00?[0;39m ?[32m INFO?[0;39m ?[35m97402?[0;39m ?[2m--- [sbb] [    Test worker] ?[0;39m?[36mcom.mysite.sbb.SbbApplicationTests      ?[0;39m ?[2m:?[0;39m Started SbbApplicationTests in 1.6 seconds (process running for 2.069)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+?[35m[Hibernate]?[0m 
+    /* ?[34minsert?[0m ?[34mfor?[0m
+        com.mysite.sbb.question.Question */?[34minsert?[0m 
+    ?[34minto?[0m
+        question (content, create_date, subject, id) 
+    ?[34mvalues?[0m
+        (?, ?, ?, ?[34mdefault?[0m)
+</pre>
+</span>
+</div>
+<div class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (/Users/yeaji/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.17.7/fbf3d6d649ed37fc9e9c59480a05be0a26e3c2da/byte-buddy-agent-1.17.7.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="https://www.gradle.org">Gradle 8.14.3</a> at 2025. 9. 16. 오후 3:19:02</p>
+</div>
+</div>
+</body>
+</html>
